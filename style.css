@@ -65,16 +65,14 @@ header::after {
   justify-content: center;
 }
 
-.hero h2{
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.hero p {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  color: white;
+.btn {
+  display: inline-block;
+  background: #e67e22;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .social-icons a {
@@ -84,8 +82,8 @@ header::after {
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: grey;
+ a:hover {
+  color: orange;
 }
 
 
