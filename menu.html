@@ -66,25 +66,109 @@ header::after {
   display: table;
   clear: both;
 }
-      
 
-.menu-section {
-    padding: 60px 0;
-    background-color: #f8f8f8;
-  }
-  
-  .menu-items {
+
+.image-container{
+     flex: 2;
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    align-items: center;
+  }
+
+
+.menu-grid {
+    padding: 30px;
+  }
+
+  .menu-grid2 {
+    padding: 30px;
+    margin-bottom: 30px;
   }
   
-  .menu-item {
-    background: #fff;
-    padding: 20px;
-    flex: 1 1 30%;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  .menu-grid h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-card {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .menu-card2 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+ 
+  .menu-card3 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .menu-card4 {
+    background-color: darkcyan;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+ 
+  .menu-card :hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-card2 :hover {
+    transform: scale(1.05);
+  }
+
+  .menu-card3 :hover {
+    transform: scale(1.05);
+  }
+
+  .menu-card4 :hover {
+    transform: scale(1.05);
+  }
+  .menu-card img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .menu-card2 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .menu-card3 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
+  }
+
+  .menu-card4 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 6px;
   }
 
 
@@ -112,8 +196,8 @@ header::after {
     padding: 20px;
     background-color: darkcyan;
     color: white;
-    position: fixed;
-    bottom: 0;
+   
+   
     width: 100%;
   }
       
@@ -127,31 +211,68 @@ header::after {
    <li><a href="index.html" class="active">Home</a></li>
    <li><a href="menu.html">Menu</a></li>
    <li><a href="about.html">About Us</a></li>
+   <li><a href="contact.html">contact us</a></li>
    </ul>
     </header>
 
-    <section id="menu" class="menu-section">
-      <div class="container">
-        <h2>Our Menu</h2>
-        <div class="menu-items">
-          <div class="menu-item">
-            <img src="grilled chicken.jpeg" alt="grilled chicken">
-            <h3>Grilled Chicken Sandwich</h3>
-            <p>Juicy chicken breast with house sauce on toasted brioche.</p>
-          </div>
-          <div class="menu-item">
-            <img src="grilled chicken.jpeg" alt="grilled chicken">
-            <h3>Grilled Chicken Sandwich</h3>
-            <p>Juicy chicken breast with house sauce on toasted brioche.</p>
-          </div>
-          <div class="menu-item">
-            <img src="grilled chicken.jpeg" alt="grilled chicken">
-            <h3>Grilled Chicken Sandwich</h3>
-            <p>Juicy chicken breast with house sauce on toasted brioche.</p>
-          </div>
+  <section>
+    <section class="menu-grid">
+      <div class="grid">
+        <div class="menu-card">
+          <img src="beef.jpg" alt="Menu 1">
+          <h3>Beef Steak</h3>
         </div>
+        <div class="menu-card2">
+          <img src="burger.jpg" alt="Menu 2">
+          <h3>Burger</h3>
+        </div>
+        <div class="menu-card3">
+          <img src="cupcake.jpg" alt="Menu 3">
+          <h3>Cupcake</h3>
+        </div>
+        
       </div>
     </section>
+
+    <section>
+      <section class="menu-grid">
+        <div class="grid">
+          <div class="menu-card">
+            <img src="pizza.jpg" alt="Menu 1">
+            <h3>Pizza</h3>
+          </div>
+          <div class="menu-card2">
+            <img src="salad.jpg" alt="Menu 2">
+            <h3>Salad</h3>
+          </div>
+          <div class="menu-card3">
+            <img src="zingaroo.jpg" alt="Menu 3">
+            <h3>Zingaroo</h3>
+          </div>
+         
+        </div>
+      </section>
+
+      <section>
+        <section class="menu-grid">
+          <div class="grid">
+            <div class="menu-card">
+              <img src="grilled chicken.jpeg" alt="Movie 1">
+              <h3>Grilled Chicken</h3>
+            </div>
+            <div class="menu-card2">
+              <img src="pilau.jpg" alt="Movie 2">
+              <h3>Pilau Rice</h3>
+            </div>
+            <div class="menu-card3">
+              <img src="taco.webp" alt="Menu 3">
+              <h3>Taco</h3>
+            </div>
+          
+          </div>
+        </section>
+
+       
    
         <footer>
             <div class="social-icons">
