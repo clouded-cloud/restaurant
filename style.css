@@ -90,13 +90,12 @@ header::after {
 }
 
 
-footer {
-    text-align: center;
-    padding: 30px;
-    background-color: darkcyan;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
+      footer {
+          text-align: center;
+          padding: 20px;
+          background-color: darkcyan;
+          color: white;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
